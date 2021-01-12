@@ -1,11 +1,11 @@
 <!-- Lek Qiu Rong 19036308 -->
 <?php
 if ($_SERVER['HTTP_HOST'] == "localhost") {
-//$HOST = 'localhost';
-//$USERNAME = 'root';
-//$PASSWORD = '';
-//$DB = 'c273_assignment';
-//$link = mysqli_connect($HOST,$USERNAME,$PASSWORD,$DB) or die(mysqli_connect_error());
+$HOST = 'localhost';
+$USERNAME = 'root';
+$PASSWORD = '';
+$DB = 'c273_assignment';
+$link = mysqli_connect($HOST,$USERNAME,$PASSWORD,$DB) or die(mysqli_connect_error());
 } else {
 
     $connectstr_dbhost = '';
